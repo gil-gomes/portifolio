@@ -1,30 +1,31 @@
-<script setup lang="ts">
-import HelloWorld from './components/HelloWorld.vue'
-</script>
-
 <template>
-  <div class="flex justify-center items-center">
-    <a href="https://vite.dev" target="_blank">
-      <img src="/vite.svg" class="logo" alt="Vite logo" />
-    </a>
-    <a href="https://vuejs.org/" target="_blank">
-      <img src="./assets/vue.svg" class="logo vue" alt="Vue logo" />
-    </a>
+  <div class="min-h-screen bg-neutral-900 text-slate-100">
+    <Navigation />
+    <main class="max-w-7xl m-auto px-4 sm:px-6 lg:px-8">
+      <Hero />
+      <About />
+      <Skills />
+      <Experience />
+      <Projects />
+      <Contact />
+    </main>
+    <Footer />
   </div>
-  <HelloWorld msg="Vite + Vue" />
 </template>
 
-<style scoped>
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
-}
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-.logo.vue:hover {
-  filter: drop-shadow(0 0 2em #42b883aa);
+<script setup lang="ts">
+import Navigation from "./components/Navigation.vue";
+import Hero from "./components/Hero.vue";
+import About from "./components/About.vue";
+import Skills from "./components/Skills.vue";
+import Experience from "./components/Experience.vue";
+import Projects from "./components/Projects.vue";
+import Contact from "./components/Contact.vue";
+import Footer from "./components/Footer.vue";
+</script>
+
+<style>
+html {
+  scroll-behavior: smooth;
 }
 </style>
