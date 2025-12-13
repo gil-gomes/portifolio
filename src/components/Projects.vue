@@ -1,5 +1,5 @@
 <template>
-  <section id="projects" class="py-20 md:py-32">
+  <section id="projects" class="py-16 md:py-24">
     <h2 class="text-4xl md:text-5xl font-bold text-white mb-12 text-center">
       Projetos Destacados
     </h2>

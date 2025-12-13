@@ -1,5 +1,5 @@
 <template>
-  <section id="skills" class="py-20 md:py-32">
+  <section id="skills" class="py-16 md:py-24">
     <h2 class="text-4xl md:text-5xl font-bold text-white mb-12 text-center">
       Habilidades Técnicas
     </h2>
@@ -52,7 +52,7 @@ const skillCategories = [
   },
   {
     name: "Ferramentas e Controle de Versão",
-    skills: ["Git", "GitHub", "Bitbucket", "Jira", "Trello", "Azure DevOps"],
+    skills: ["Git", "GitHub", "GitLab", "Trello",],
   },
 ];
 </script>

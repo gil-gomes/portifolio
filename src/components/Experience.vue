@@ -1,5 +1,5 @@
 <template>
-  <section id="experience" class="py-20 md:py-32">
+  <section id="experience" class="py-16 md:py-24">
     <h2 class="text-4xl md:text-5xl font-bold text-white mb-12 text-center">Experiência Profissional</h2>
     
     <div class="space-y-8">

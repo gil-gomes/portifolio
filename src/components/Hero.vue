@@ -1,5 +1,5 @@
 <template>
-  <section class="py-20 md:py-32 flex items-center justify-center">
+  <section class="py-16 md:py-24 flex items-center justify-center">
     <div class="text-center">
       <div class="mb-8">
         <div
